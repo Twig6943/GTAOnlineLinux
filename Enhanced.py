@@ -120,7 +120,7 @@ def getSteamGamePath(steamID:int, name:str) -> str:
 				continue
 			if line.lstrip().startswith(f'\"{steamID}'):
 				return path
-		print(f'couldn\'t find {name}')
+		print(f"couldn't find {name}")
 		exit(1)
 
 def writeLaunchOptions() -> None:
@@ -153,7 +153,7 @@ def writeLaunchOptions() -> None:
 			steamConfig.writelines(outputFile)
 			steamConfig.close()
 		if not gotGTA:
-			print('couldn\'t set launch options')
+			print("couldn't set launch options")
 			exit(1)
 		return
 
