@@ -2,7 +2,7 @@
 
 bash, python, linux
 
-gta has to be installed trough steam
+gta has to be installed through steam
 
 this might not work on immutable distros
 
